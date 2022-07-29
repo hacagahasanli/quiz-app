@@ -1,0 +1,43 @@
+.mainDiv{
+
+}
+
+.mainDiv h2{
+    margin-top:-1rem;
+}
+
+.mainDiv h3{
+    color: rgb(163, 159, 159);
+}
+
+.questionDiv{
+    margin-left: 2.4rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1.5rem;
+}
+
+.btnAdd{
+    padding: 0.5rem 0.5rem !important;
+    font-size: 0.8rem;
+    border-radius: 30px;
+    width: 80%;
+}
+
+.btn{
+    background-color: green !important;
+    color: white;
+    font-size: 1rem !important;
+    outline: none !important;
+    border: none !important;
+    position: relative;
+    left: 7.5rem;
+    top: 1.5rem;
+}
+
+.btn:disabled,
+.btn:hover:disabled{
+    background-color: gray !important;
+    cursor: not-allowed !important;
+    color: white !important;
+}
